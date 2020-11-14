@@ -92,7 +92,7 @@ npm start
 
 ## Usage
 Back-end port: localhost:8080                                            
-Endpoints located in controllers folder files.
+Endpoints located in "controllers" folder files.
 
 Front-end port: localhost:3000
 
