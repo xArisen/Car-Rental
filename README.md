@@ -99,7 +99,7 @@ Front-end port: localhost:3000
 <!-- CONTACT -->
 ## Contact
 
-Bartosz Czapiewski - czapiewskipiotr04@gmail.com
+Bartosz Czapiewski - bczapiewski67@gmail.com
 
 Project Link: [https://github.com/xArisen/Car-Rental](https://github.com/xArisen/Car-Rental)
 
