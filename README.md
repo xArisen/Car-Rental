@@ -6,16 +6,20 @@ Main branch with working application.
 
 * [About the Project](#about-the-project)
   * [Built With](#built-with)
+  * [Gallery](#gallery)
 * [Getting Started](#getting-started)
   * [Prerequisites](#prerequisites)
   * [Installation](#installation)
 * [Usage](#usage)
+* [Author Info](#author-info)
 * [Contact](#contact)
 
 
 
 <!-- ABOUT THE PROJECT -->
-## About The Project
+## About The Project!
+
+![image](https://user-images.githubusercontent.com/44233981/116686497-2a129380-a9b4-11eb-8a74-04c2d0578c84.png)
 
 Project created in 2 months by a team of 4 people, including 2 front-end developers and 2 back-end developers. My part was making REST API (work time: 1 month). That is why in description I will focuse more on that part of application. WebApp allows any company to improve car rental managment. No need of writing emails, waiting for response, checking if car is actually available (not crashed or already rented). There are 2 types of accounts in the application: administrator and user. Both of account types comes with ton of functionalities.
 
@@ -39,6 +43,16 @@ Backend additional functionalities:
 * Additional H2 database used for testing (active profile)
 * DataBaseLoader - filling the external database at application startup (using CommandLineRunner or data.sql file)
 * Entrance data validation
+
+
+
+### Gallery
+![image](https://user-images.githubusercontent.com/44233981/116686629-5dedb900-a9b4-11eb-829d-f733d4689911.png)
+![image](https://user-images.githubusercontent.com/44233981/116686633-60e8a980-a9b4-11eb-8c93-b5aeb9644a64.png)
+![image](https://user-images.githubusercontent.com/44233981/116686643-63e39a00-a9b4-11eb-96cc-277239ed7ccf.png)
+![image](https://user-images.githubusercontent.com/44233981/116686660-680fb780-a9b4-11eb-9f40-341674a71c13.png)
+
+
 
 ### Built With
 Backend:
@@ -95,6 +109,15 @@ Back-end port: localhost:8080
 Endpoints located in "controllers" folder files.
 
 Front-end port: localhost:3000
+
+
+## Author Info
+
+* Wojciech Waleszczyk (frontend)
+* Kamil Susek (frontend)
+* Rafał Paprota (backend)
+* Bartosz Czapiewski (backend)
+* Michał Matysiak (devops)
 
 <!-- CONTACT -->
 ## Contact
