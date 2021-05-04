@@ -33,12 +33,16 @@ public class LoginApi {
     @RequestMapping(method = RequestMethod.POST, value = "/login")
     public ResponseEntity<?> login(@RequestBody final User userDTO) throws Exception {
 
-        System.out.println(userDTO.getLogin() + " " + userDTO.getPassword());
-        final User user = userService.getEntityByLoginAndisActive(userDTO.getLogin(), true);
+        final User user = null
 
         final Authentication authentication;
 
         try {
+            user = userService.getEntityByLoginAndisActive(userDTO.getLogin(), true);
+            if(user == null){
+                throw new BadCredentialsException("User was not found");
+            }
+            
             authentication = authenticationManager.authenticate(new UsernamePasswordAuthenticationToken(userDTO.getLogin(), userDTO.getPassword()));
             SecurityContextHolder.getContext().setAuthentication(authentication);
         } catch (final BadCredentialsException e) {
